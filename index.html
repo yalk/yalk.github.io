@@ -1,1 +1,72 @@
-hello world
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Ankur Singh</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about { width: 600px; padding: 80px 0 0 80px;}
+		#logo { padding: 0 0 0 80px;}
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			#logo { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.2; }
+		}
+	</style>
+</head>	
+    
+<body>
+
+<!-- swap out for a logo 
+<div id="monogram">
+	<img src="monogram.png" />
+</div>
+-->
+<!-- swap out for information about yourself -->
+<div id="about">
+	<font size="10" color="white" face="Helvetica"><b>Ankur Singh.</b></font>
+	<p><br>is a coder with a degree in <b><i>Computer Engineering</i></b> from the <b><i>University of Mumbai</i></b>.</p>
+	<p>When he is not coding he is either playing League of Legends or climbing a hill somewhere.</p>
+	<p>Ankur enjoys playing Badminton and Football among other sports. He also holds a 2nd Dan Black Belt in Karate.</p> 
+	<p>Currently based in <b><i>Mumbai</b></i>, Ankur tries to make the most of his time exploring his interests.</p>
+	<p><br>Connect with him:</p>
+	<a class="socialIcons" href="https://www.facebook.com/ankur2893" alt="Social Icon"><img src="img/fb.png" /></a>
+	<a class="socialIcons" href="https://www.twitter.com/chunkyhead" alt="Social Icon"><img src="img/twitter.png" /></a>
+	<a class="socialIcons" href="https://in.linkedin.com/in/ankursingh28" alt="Social Icon"><img src="img/linkedin.png" /></a>
+	<a class="socialIcons" href="https://www.flickr.com/photos/ankur_singh/" alt="Social Icon"><img src="img/flickr.png" /></a>
+	<a class="socialIcons" href="mailto:ankur.singh@vit.edu.in" alt="Social Icon"><img src="img/email.png" /></a>
+	<a class="socialIcons" href="https://instagram.com/chunkybhead" alt="Social Icon"><img src="img/instagram.png" /></a>
+	<a class="socialIcons" href="https://plus.google.com/114410108782409979108" alt="Social Icon"><img src="img/googleplus.png" /></a>
+</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("nh_bg0.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
+</html>
