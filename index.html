@@ -25,22 +25,14 @@
 			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
 			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
 			#logo { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
+			background-image { opacity: 0; }
+			
+			
 		}
 	</style>
 </head>	
     
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NRTKBX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NRTKBX');</script>
-<!-- End Google Tag Manager -->
-
 
 <!-- swap out for a logo 
 <div id="monogram">
@@ -50,18 +42,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- swap out for information about yourself -->
 <div id="about">
 	<font size="10" color="white" face="Helvetica"><b>Ankur Singh.</b></font>
-	<p><br>is a coder with a degree in <b><i>Computer Engineering</i></b> from the <b><i>University of Mumbai</i></b>.</p>
-	<p>When he is not coding he is either playing League of Legends or climbing a hill somewhere.</p>
+	<p><br>is a <font size="6" color="black" face="Helvetica"><b>Coder</b></font> with a degree in <font size="5" color="black" face="Helvetica"><b>Computer Engineering</b></font> from the <font size="4" color="black" face="Helvetica"><b>University of Mumbai</b></font>.</p>
+	<p>He is currently works on Web Analytics projects for <a href="http://www.convonix.com/" target="_blank"><span style="color: blue">SMG Convonix</span></a>. When he is not busy he is either playing League of Legends or climbing a hill somewhere.</p>
 	<p>Ankur enjoys playing Badminton and Football among other sports. He also holds a 2nd Dan Black Belt in Karate.</p> 
-	<p>Currently based in <b><i>Mumbai</b></i>, Ankur tries to make the most of his time exploring his interests.</p>
+	<p>Currently based in <font size="4" color="black" face="Helvetica"><b>Mumbai</b></font>, Ankur tries to make the most of his time exploring his interests.</p>
 	<p><br>Connect with him:</p>
-	<a class="socialIcons" href="https://www.facebook.com/ankur2893" alt="Social Icon"><img src="img/fb.png" /></a>
-	<a class="socialIcons" href="https://www.twitter.com/chunkyhead" alt="Social Icon"><img src="img/twitter.png" /></a>
-	<a class="socialIcons" href="https://in.linkedin.com/in/ankursingh28" alt="Social Icon"><img src="img/linkedin.png" /></a>
-	<a class="socialIcons" href="https://www.flickr.com/photos/ankur_singh/" alt="Social Icon"><img src="img/flickr.png" /></a>
-	<a class="socialIcons" href="mailto:ankur.singh@vit.edu.in" alt="Social Icon"><img src="img/email.png" /></a>
-	<a class="socialIcons" href="https://instagram.com/chunkybhead" alt="Social Icon"><img src="img/instagram.png" /></a>
-	<a class="socialIcons" href="https://plus.google.com/114410108782409979108" alt="Social Icon"><img src="img/googleplus.png" /></a>
+	<a class="socialIcons" href="https://www.facebook.com/ankur2893" alt="Social Icon" target="_blank"><img src="img/fb.png" /></a>
+	<a class="socialIcons" href="https://www.twitter.com/chunkyhead" alt="Social Icon" target="_blank"><img src="img/twitter.png" /></a>
+	<a class="socialIcons" href="https://in.linkedin.com/in/ankursingh28" alt="Social Icon" target="_blank"><img src="img/linkedin.png" /></a>
+	<a class="socialIcons" href="https://www.flickr.com/photos/ankur_singh/" alt="Social Icon" target="_blank"><img src="img/flickr.png" /></a>
+	<a class="socialIcons" href="mailto:ankur.singh@vit.edu.in" alt="Social Icon" target="_blank"><img src="img/email.png" /></a>
+	<a class="socialIcons" href="https://instagram.com/chunkybhead" alt="Social Icon" target="_blank"><img src="img/instagram.png" /></a>
+	<a class="socialIcons" href="https://plus.google.com/114410108782409979108" alt="Social Icon" target="_blank"><img src="img/googleplus.png" /></a>
 </div>
 
 <!--include jquery & backstretch-->
@@ -71,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("nh_bg0.jpg", {speed: 150});
+             $.backstretch("nh_bg0.jpg", {speed: 1200});
          }
       })
       .resize();//trigger resize on page load
