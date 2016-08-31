@@ -1,4 +1,5 @@
 <script type="text/javascript">
+ga('create', 'UA-34674807-1', 'auto');
 $(document).ready(function(){
 	$(".socialIcons").click(function(){
 		var category="social"
