@@ -55,7 +55,7 @@ gtm: "GTM-NRTKBX"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_profile_image: images/AnkurSingh6_v2.png
 about_content: | # this will include new lines to allow paragraphs
-  I help brands to quantify and optimize the impact of their digital marketing campaigns. 
+  I help brands quantify and optimize the impact of their digital marketing campaigns. 
   
   Outside of work, I love to travel and learn about different cultures and their cuisines.
 
@@ -97,8 +97,7 @@ content:
         sub_title: Associate Director - Marketing Science
         caption: 2015 - Present
         link: https://www.performics.com/in/
-        quote: >
-          Largest performance marketing agency in India, specialising in data driven digital marketing.
+        quote: Largest performance marketing agency in India, specialising in data driven digital marketing.
         description: | # this will include new lines to allow paragraphs
           Responsible for advanced solutions that help brands develop a deeper understanding of customers behavior on the internet, and optimize channels of engaging with them across the digital ecosystem.
   - title: Education
@@ -108,10 +107,9 @@ content:
         title: University of Mumbai
         sub_title: Bachelor of Engineering 
         caption: 2011 - 2015
-        quote: >
-          The University of Mumbai is a collegiate state-owned public university in Mumbai, India.
+        quote: The University of Mumbai is a collegiate state-owned public university in Mumbai, India.
         description: | # this will include new lines to allow paragraphs
-          4 year program specializing in Computer Engineering. Won the First Pr
+          4 year program specializing in Computer Engineering
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
