@@ -55,40 +55,41 @@ gtm: "GTM-NRTKBX"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_profile_image: images/AnkurSingh6_v2.png
 about_content: | # this will include new lines to allow paragraphs
-  THIS IS AN EDIT 0 CAN YOU SEE THIS 00000 Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I help brands to quantify and optimize the impact of their advertising campaigns. Outside of work, I love to travel and learn about different cultures and their cuisines.
+# THIS IS AN EDIT 0 CAN YOU SEE THIS 00000 Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#     - Lists
+#     - Tables
+#     - <a href="google.com">Links</a>
+#     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+#   - title: Projects # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         border: weak  # Value of `weak` will display a weak border below this item. # Any 
+#                       # other value (or no value) means no border will be displayed
+#         title: Project name
+#         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#         link_text: Link Text
+#         additional_links:
+#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#             icon: fab fa-github
+#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#             icon: fab fa-github
+#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#         quote: >
+#           Short overview of the project (optional)
+#         description: | # this will include new lines to allow paragraphs
+#           Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
+        title: Performics IN
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
