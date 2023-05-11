@@ -55,7 +55,11 @@ gtm: "GTM-NRTKBX"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_profile_image: images/AnkurSingh6_v2.png
 about_content: | # this will include new lines to allow paragraphs
-  I help brands to quantify and optimize the impact of their advertising campaigns. Outside of work, I love to travel and learn about different cultures and their cuisines.
+  I help brands to quantify and optimize the impact of their digital marketing campaigns. 
+  
+  Outside of work, I love to travel and learn about different cultures and their cuisines.
+
+  When I am not working or traveling, I am either trying out new coffee beans or riding my motorcycle around the city. 
 # THIS IS AN EDIT 0 CAN YOU SEE THIS 00000 Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
 #   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -88,35 +92,35 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Performics IN
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        sub_title: Associate Director - Marketing Science
+        caption: 2015 - Present
+        link: https://www.performics.com/in/
         quote: >
-          Short description of the company (optional)
+          Largest performance marketing agency in India, specialising in data driven digital marketing.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Responsible for advanced solutions that help brands develop a deeper understanding of customers behavior on the internet, and optimize channels of engaging with them across the digital ecosystem.
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: University of Mumbai
+        sub_title: Bachelor of Engineering 
+        caption: 2011 - 2015
         quote: >
-          Short institution or course description (optional)
+          The University of Mumbai is a collegiate state-owned public university in Mumbai, India.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          4 year program specializing in Computer Engineering. Won the First Pr
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
