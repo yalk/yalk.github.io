@@ -55,6 +55,7 @@ gtm: "GTM-NRTKBX"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_profile_image: images/AnkurSingh6_v2.png
 about_content: | # this will include new lines to allow paragraphs
+  I help brands to quantify and optimize the impact of their advertising campaigns. Outside of work, I love to travel and learn about different cultures and their cuisines.
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 # 
 #   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -62,7 +63,6 @@ about_content: | # this will include new lines to allow paragraphs
 #     - Tables
 #     - <a href="google.com">Links</a>
 #     - Images ![alt text](/images/landscape-trees.jpg "Trees")
-  I help brands to quantify and optimize the impact of their advertising campaigns. Outside of work, I love to travel and learn about different cultures and their cuisines.
 
 content:
 #   - title: Projects # Title for the section
