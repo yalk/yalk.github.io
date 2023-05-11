@@ -9,7 +9,7 @@ version: 2
 
 # Personal info
 name: Ankur Singh
-title: Marketing Science & Technology Expert
+title: Marketing Science & Advertisement Technology Expert
 # email: Your email (optional)
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -46,7 +46,7 @@ github_username:  yalk
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-gtm: "GTM-KGGDVH4"
+gtm: "GTM-NRTKBX"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
@@ -55,13 +55,14 @@ gtm: "GTM-KGGDVH4"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_profile_image: images/AnkurSingh6.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+#   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+# 
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#     - Lists
+#     - Tables
+#     - <a href="google.com">Links</a>
 #     - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I help brands to quantify and optimize the impact of their advertising campaigns. Outside of work, I love to travel and learn about different cultures and their cuisines.
 
 content:
 #   - title: Projects # Title for the section
@@ -89,14 +90,13 @@ content:
     content:
       # - layout: right
       - layout: left
-        title: Performics
-        sub_title: Associate Director
+        title: Performics IN
+        sub_title: Associate Director - Marketing Science
         caption: 2015 - Present
         link: https://www.performics.com/in/
-        quote: >
-          Performics India is the largest performance marketing agency in India, specialising in data driven digital marketing.
+        quote: Largest performance marketing agency in India, specialising in data driven digital marketing.
         description: | # this will include new lines to allow paragraphs
-          Responsible for advanced solutions that help develop a deeper understanding of the customers, their behavior, and optimized channels of engaging with them across the digital ecosystem.
+          Responsible for advanced solutions that help brands develop a deeper understanding of customers behavior on the internet, and optimize channels of engaging with them across the digital ecosystem.
   - title: Education
     layout: list
     content:
@@ -107,17 +107,17 @@ content:
         caption: 2011 - 2015
         # quote: >
         #   Studied a 4 year computer engineering program 
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        description: | # this will include new lines to allow paragraphs
+           4 year program specializing in Computer Engineering. Won the First Pr
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  # 
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-# footer_show_references: true
+  footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
